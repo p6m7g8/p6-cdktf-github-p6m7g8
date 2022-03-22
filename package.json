@@ -1,0 +1,134 @@
+{
+  "name": "p6-cdktf-github-p6m7g8",
+  "description": "Provision's a Github Organization",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pgollucci/p6-cdktf-github-p6m7g8.git"
+  },
+  "scripts": {
+    "build": "scripts/run-task build",
+    "bump": "scripts/run-task bump",
+    "clobber": "scripts/run-task clobber",
+    "compat": "scripts/run-task compat",
+    "compile": "scripts/run-task compile",
+    "docgen": "scripts/run-task docgen",
+    "eslint": "scripts/run-task eslint",
+    "package": "scripts/run-task package",
+    "package-all": "scripts/run-task package-all",
+    "package:js": "scripts/run-task package:js",
+    "post-compile": "scripts/run-task post-compile",
+    "post-upgrade": "scripts/run-task post-upgrade",
+    "pre-compile": "scripts/run-task pre-compile",
+    "release": "scripts/run-task release",
+    "test": "scripts/run-task test",
+    "test:update": "scripts/run-task test:update",
+    "test:watch": "scripts/run-task test:watch",
+    "unbump": "scripts/run-task unbump",
+    "upgrade": "scripts/run-task upgrade",
+    "upgrade-projen": "scripts/run-task upgrade-projen",
+    "watch": "scripts/run-task watch"
+  },
+  "author": {
+    "name": "Philip M. Gollucci",
+    "email": "pgollucci@p6m7g8.com",
+    "organization": true
+  },
+  "devDependencies": {
+    "@cdktf/provider-github": "^0.6.56",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^12",
+    "@typescript-eslint/eslint-plugin": "^5",
+    "@typescript-eslint/parser": "^5",
+    "cdktf": "0.9.4",
+    "constructs": "10.0.25",
+    "eslint": "^8",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
+    "jest-junit": "^13",
+    "jsii": "^1.55.1",
+    "jsii-diff": "^1.55.1",
+    "jsii-docgen": "^6.2.2",
+    "jsii-pacmak": "^1.55.1",
+    "json-schema": "^0.4.0",
+    "npm-check-updates": "^12",
+    "prettier": "^2.6.0",
+    "standard-version": "^9",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^9",
+    "typescript": "^4.6.2"
+  },
+  "peerDependencies": {
+    "cdktf": "^0.9.4",
+    "constructs": "^10.0.25"
+  },
+  "dependencies": {
+    "@cdktf/provider-github": "^0.6.56"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "cdktf",
+    "construct",
+    "github",
+    "projen",
+    "repository-manager",
+    "terraform"
+  ],
+  "main": "lib/index.js",
+  "license": "Apache-2.0",
+  "version": "0.0.0",
+  "jest": {
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.ts?(x)",
+      "<rootDir>/(test|src)/**/?(*.)+(spec|test).ts?(x)"
+    ],
+    "clearMocks": true,
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "clover",
+      "cobertura",
+      "text"
+    ],
+    "coverageDirectory": "coverage",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "watchPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "reporters": [
+      "default",
+      [
+        "jest-junit",
+        {
+          "outputDirectory": "test-reports"
+        }
+      ]
+    ],
+    "preset": "ts-jest",
+    "globals": {
+      "ts-jest": {
+        "tsconfig": "tsconfig.dev.json"
+      }
+    }
+  },
+  "types": "lib/index.d.ts",
+  "stability": "experimental",
+  "jsii": {
+    "outdir": "dist",
+    "targets": {},
+    "tsc": {
+      "outDir": "lib",
+      "rootDir": "src"
+    }
+  }
+}
