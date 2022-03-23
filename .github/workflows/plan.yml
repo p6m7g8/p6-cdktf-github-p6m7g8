@@ -23,7 +23,7 @@ jobs:
       - run: yarn install
       - run: "mkdir .gen" # Will go away with one of the next versions of cdktf
       - name: Synth
-        run: "$(yarn bin)/cdktf synth"
+        run: "npx cdktf synth"
       - name: Plan
         id: plan
         run: "cd cdktf.out && rm -rf .terraform && terraform init && terraform plan -no-color"
