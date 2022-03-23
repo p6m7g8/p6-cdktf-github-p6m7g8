@@ -17,4 +17,4 @@ jobs:
           terraform_version: 1.1.7
           cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
       - name: synth
-        run: npm install ; CDKTF_LOG_LEVEL=debug npx cdktf synth
+        run: npx cdktf --version; node --version; npm list
