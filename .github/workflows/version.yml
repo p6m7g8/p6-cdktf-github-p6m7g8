@@ -1,22 +1,20 @@
-name: 'Version'
+name: "Version"
 
 on: [pull_request, push]
 
 jobs:
   terraform:
-    name: 'Version'
+    name: "Version"
     runs-on: ubuntu-latest
     steps:
-    - name: Setup Terraform
-      uses: hashicorp/setup-terraform@v1
-      with:
-        terraform_version: 1.15.0
-        cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
-
-    - name: Setup Node
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '14'
-
-    - name: Versions
-      run: terraform -version ; node --version ; npm list; $(yarn bin)/cdktf --version
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - name: terraform
+        uses: hashicorp/setup-terraform@v1
+        with:
+          terraform_version: 1.1.7
+          cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
+      - name: synth
+        run: npm install ; npx cdktf get -o src/generated; git diff; CDKTF_LOG_LEVEL=debug npx cdktf synth
