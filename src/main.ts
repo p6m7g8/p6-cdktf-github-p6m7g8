@@ -151,7 +151,8 @@ class MyStack extends TerraformStack {
       defaultBranch: "main",
       homepageUrl: "https://p6m7g8.github.io",
       name: "p6-cdk-namer",
-      description: "Awesome List for AWS's Projen",
+      description:
+        "AWS CDK setups up a Custom Resource via Cloud Formation which sets the AWS IAM Account Alias",
       topics: ["p6", "projen", "awesome", "awesome-list", "cdk", "construct"],
     });
   }
