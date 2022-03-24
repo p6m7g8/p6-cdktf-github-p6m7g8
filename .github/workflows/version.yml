@@ -11,4 +11,4 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
-        run: npm install ; npx cdktf --version; node --version; npm list
+      - run: npm install ; npx cdktf --version; node --version; npm list
