@@ -34,7 +34,7 @@
     "organization": true
   },
   "devDependencies": {
-    "@cdktf/provider-github": "^0.6.56",
+    "@cdktf/provider-github": "^0.6.59",
     "@types/jest": "^27.4.1",
     "@types/node": "^12",
     "@typescript-eslint/eslint-plugin": "^5",
@@ -66,7 +66,7 @@
     "constructs": "^10.0.25"
   },
   "dependencies": {
-    "@cdktf/provider-github": "^0.6.56"
+    "@cdktf/provider-github": "^0.6.59"
   },
   "keywords": [
     "aws",

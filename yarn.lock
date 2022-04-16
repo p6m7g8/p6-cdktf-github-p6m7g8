@@ -293,10 +293,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cdktf/provider-github@^0.6.56":
-  version "0.6.56"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.6.56.tgz#53b0b35a6cd6154fb96e16d62a0d6600a272e51d"
-  integrity sha512-3rLuY+hBiNHdQmlsmMMXKH0sTNgs5Wu0fHZ3LIYA9GOcZp9aVZ5h+XCsu1q3iKffJ5My1vfYJmXD/UDlJjA6sQ==
+"@cdktf/provider-github@^0.6.59":
+  version "0.6.63"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.6.63.tgz#d61b02167525186cac2639728c04f83a2f70e004"
+  integrity sha512-NUnJh38lRMXqYxfM04M3deco7tk0EZhxfIPpdhfFwkyS3SFEOPwMUaaZt4KA7hZbcdOoL8FLvpp694ENpUzkEg==
 
 "@eslint/eslintrc@^1.2.1":
   version "1.2.1"
