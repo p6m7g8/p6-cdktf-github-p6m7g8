@@ -27,6 +27,10 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6m7g8.githu.io
     licenseTemplate: apache-2.0
+    pages:
+      source:
+        branch: main
+        docs: docs/
     topics:
       - p6
       - p6m7g8
@@ -322,6 +326,25 @@ repositories:
       - zsh
       - ohmyzsh
       - projen
+      - plugin
+    vulnerabilityAlerts: true
+  - name: p6-zsh-cdktf-plugin
+    allowAutoMerge: true
+    archiveOnDestroy: true
+    deleteBranchOnMerge: true
+    description: P6M7G8 p6m7g8/p6-zsh-cdktf-plugin
+    hasDiscussions: true
+    hasIssues: true
+    hasProjects: true
+    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-zsh-cdktf-plugin
+    licenseTemplate: apache-2.0
+    topics:
+      - p6
+      - p6m7g8
+      - ohmyzsh
+      - cdktf
+      - terraform-cdk
+      - terraform
       - plugin
     vulnerabilityAlerts: true
   - name: p6-zsh-sam-plugin

@@ -1,4 +1,4 @@
-import { provider, repository, team } from '@cdktf/provider-github';
+import { branchDefault, branchProtectionV3, provider, repository, team } from '@cdktf/provider-github';
 import { App, TerraformStack } from "cdktf";
 import { Construct } from "constructs";
 
@@ -62,12 +62,24 @@ class MyStack extends TerraformStack {
         vulnerabilityAlerts: repo.vulnerabilityAlerts,
         pages: repo.pages
       });
-    });
 
-    //   new branchDefault.BranchDefault(this, `${repo}Branch`, {
-    //     branch: 'main',
-    //     repository: repo.replace(/./g, ''),
-    //   });
+      const tf_default_branch_resource_name = "default_branch_" + repo.name.replace(/\./g, '');       
+      new branchDefault.BranchDefault(this, tf_default_branch_resource_name, {
+        branch: 'main',
+        repository: repo.name
+      });
+
+      const tf_branch_protection_resource_name  = "branch_protection_" + repo.name.replace(/\./g, '');       
+      new branchProtectionV3.BranchProtectionV3(this, tf_branch_protection_resource_name, {
+        branch: 'main',
+        repository: repo.name,
+        enforceAdmins: true,
+        requiredStatusChecks: {
+          strict: true,
+          checks: [],
+        },
+      });
+    });
   }
 }
 
