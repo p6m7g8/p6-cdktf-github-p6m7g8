@@ -58,6 +58,7 @@ repositories:
       - github
       - cve
       - cdk
+      - projen
     vulnerabilityAlerts: true
   - name: p6-cdk-landing-zone
     allowAutoMerge: true
@@ -77,6 +78,7 @@ repositories:
       - cdk
       - landingzone
       - accelerator
+      - projen
     vulnerabilityAlerts: true
   - name: p6-cdktf-github-p6m7g8
     allowAutoMerge: true
@@ -95,6 +97,7 @@ repositories:
       - cdktf
       - github
       - terraform
+      - projen
     vulnerabilityAlerts: true
   - name: p6-cirrus
     allowAutoMerge: true
@@ -133,6 +136,7 @@ repositories:
       - typescript
       - route53
       - cdk
+      - projen
     vulnerabilityAlerts: true
   - name: p6-domains
     allowAutoMerge: true
@@ -151,6 +155,7 @@ repositories:
       - typescript
       - route53
       - cdk
+      - projen
     vulnerabilityAlerts: true
   - name: p6-go-craps
     allowAutoMerge: true
