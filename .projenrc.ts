@@ -5,9 +5,9 @@ const project = new cdktf.ConstructLibraryCdktf({
   authorAddress: 'pgollucci@p6m7g8.com',
   authorOrganization: true,
   repositoryUrl: 'https://github.com/p6m7g8/p6-cdktf-github-p6m7g8',
-  description: "P6M7G8 Organization Repository Manager CDKTF Construct",
-  stability: "experimental",
-  keywords: ["cdk", "cdktf", "terraform-cdk", "projen", "github"],
+  description: 'P6M7G8 Organization Repository Manager CDKTF Construct',
+  stability: 'experimental',
+  keywords: ['cdk', 'cdktf', 'terraform-cdk', 'projen', 'github'],
 
   defaultReleaseBranch: 'main',
   cdktfVersion: '^0.16.3',
@@ -18,7 +18,7 @@ const project = new cdktf.ConstructLibraryCdktf({
   releaseFailureIssue: true,
   autoApproveUpgrades: true,
   autoApproveOptions: {
-    allowedUsernames: ["p6m7g8-automation"],
+    allowedUsernames: ['p6m7g8-automation'],
   },
 
   bundledDeps: [
