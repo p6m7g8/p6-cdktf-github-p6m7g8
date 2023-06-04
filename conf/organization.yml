@@ -59,23 +59,6 @@ repositories:
       - cve
       - cdk
     vulnerabilityAlerts: true
-  - name: p6-cdk-gollucci.io
-    allowAutoMerge: true
-    archiveOnDestroy: true
-    deleteBranchOnMerge: true
-    description: P6M7G8 p6m7g8/p6-cdk-gollucci.io
-    hasDiscussions: true
-    hasIssues: true
-    hasProjects: true
-    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdk-gollucci.io
-    licenseTemplate: apache-2.0
-    topics:
-      - p6
-      - p6m7g8
-      - typescript
-      - cdk
-      - nextjs
-    vulnerabilityAlerts: true
   - name: p6-cdk-landing-zone
     allowAutoMerge: true
     archiveOnDestroy: true
