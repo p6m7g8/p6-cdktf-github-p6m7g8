@@ -1,17 +1,24 @@
 import { cdktf } from 'projen';
 const project = new cdktf.ConstructLibraryCdktf({
+  name: 'p6-cdktf-github-p6m7g8',
   author: 'Philip M. Gollucci',
   authorAddress: 'pgollucci@p6m7g8.com',
-  cdktfVersion: '^0.13.0',
-  defaultReleaseBranch: 'main',
-  jsiiVersion: '~5.0.0',
-  name: 'p6-cdktf-github-p6m7g8',
-  projenrcTs: true,
   repositoryUrl: 'https://github.com/p6m7g8/p6-cdktf-github-p6m7g8',
+  defaultReleaseBranch: 'main',
+  cdktfVersion: '^0.16.3',
+  constructsVersion: '10.1.167',
+  jsiiVersion: '~5.0.0',
+  projenrcTs: true,
 
-  // deps: [],                /* Runtime dependencies of this module. */
-  // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],             /* Build dependencies for this module. */
-  // packageName: undefined,  /* The "name" in package.json. */
+  bundledDeps: [
+    'js-yaml',
+  ],
+  deps: [
+    '@cdktf/provider-github',
+    'js-yaml',
+  ],
+  devDeps: [
+    '@types/js-yaml',
+  ],
 });
 project.synth();
