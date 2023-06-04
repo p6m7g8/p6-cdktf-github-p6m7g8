@@ -1,0 +1,13 @@
+{
+  "version": "0.16.3",
+  "stacks": {
+    "p6-cdktf-github-p6m7g8": {
+      "name": "p6-cdktf-github-p6m7g8",
+      "constructPath": "p6-cdktf-github-p6m7g8",
+      "workingDirectory": "stacks/p6-cdktf-github-p6m7g8",
+      "synthesizedStackPath": "stacks/p6-cdktf-github-p6m7g8/cdk.tf.json",
+      "annotations": [],
+      "dependencies": []
+    }
+  }
+}

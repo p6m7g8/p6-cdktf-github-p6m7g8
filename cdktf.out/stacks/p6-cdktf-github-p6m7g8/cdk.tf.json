@@ -1,0 +1,1164 @@
+{
+  "//": {
+    "metadata": {
+      "backend": "local",
+      "stackName": "p6-cdktf-github-p6m7g8",
+      "version": "0.16.3"
+    },
+    "outputs": {
+    }
+  },
+  "provider": {
+    "github": [
+      {
+        "owner": "p6m7g8",
+        "token": "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"
+      }
+    ]
+  },
+  "resource": {
+    "github_branch_default": {
+      "default_branch_github": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_github",
+            "uniqueId": "default_branch_github"
+          }
+        },
+        "branch": "main",
+        "repository": ".github"
+      },
+      "default_branch_p6-cdk-github-cve-alerter": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-cdk-github-cve-alerter",
+            "uniqueId": "default_branch_p6-cdk-github-cve-alerter"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-cdk-github-cve-alerter"
+      },
+      "default_branch_p6-cdk-gollucciio": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-cdk-gollucciio",
+            "uniqueId": "default_branch_p6-cdk-gollucciio"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-cdk-gollucci.io"
+      },
+      "default_branch_p6-cdk-landing-zone": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-cdk-landing-zone",
+            "uniqueId": "default_branch_p6-cdk-landing-zone"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-cdk-landing-zone"
+      },
+      "default_branch_p6-cdktf-github-p6m7g8": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-cdktf-github-p6m7g8",
+            "uniqueId": "default_branch_p6-cdktf-github-p6m7g8"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-cdktf-github-p6m7g8"
+      },
+      "default_branch_p6-cirrus": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-cirrus",
+            "uniqueId": "default_branch_p6-cirrus"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-cirrus"
+      },
+      "default_branch_p6-domain-records": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-domain-records",
+            "uniqueId": "default_branch_p6-domain-records"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-domain-records"
+      },
+      "default_branch_p6-domains": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-domains",
+            "uniqueId": "default_branch_p6-domains"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-domains"
+      },
+      "default_branch_p6-go-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-go-craps",
+            "uniqueId": "default_branch_p6-go-craps"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-go-craps"
+      },
+      "default_branch_p6-projen-ts-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-projen-ts-craps",
+            "uniqueId": "default_branch_p6-projen-ts-craps"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-projen-ts-craps"
+      },
+      "default_branch_p6-py-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-py-craps",
+            "uniqueId": "default_branch_p6-py-craps"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-py-craps"
+      },
+      "default_branch_p6-rails-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-rails-craps",
+            "uniqueId": "default_branch_p6-rails-craps"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-rails-craps"
+      },
+      "default_branch_p6-rb-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-rb-craps",
+            "uniqueId": "default_branch_p6-rb-craps"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-rb-craps"
+      },
+      "default_branch_p6-rust-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-rust-craps",
+            "uniqueId": "default_branch_p6-rust-craps"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-rust-craps"
+      },
+      "default_branch_p6-slab-graphql-schema": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-slab-graphql-schema",
+            "uniqueId": "default_branch_p6-slab-graphql-schema"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-slab-graphql-schema"
+      },
+      "default_branch_p6-ts-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-ts-craps",
+            "uniqueId": "default_branch_p6-ts-craps"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-ts-craps"
+      },
+      "default_branch_p6-zsh-cdktf-plugin": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-zsh-cdktf-plugin",
+            "uniqueId": "default_branch_p6-zsh-cdktf-plugin"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-zsh-cdktf-plugin"
+      },
+      "default_branch_p6-zsh-projen-plugin": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-zsh-projen-plugin",
+            "uniqueId": "default_branch_p6-zsh-projen-plugin"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-zsh-projen-plugin"
+      },
+      "default_branch_p6-zsh-sam-plugin": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6-zsh-sam-plugin",
+            "uniqueId": "default_branch_p6-zsh-sam-plugin"
+          }
+        },
+        "branch": "main",
+        "repository": "p6-zsh-sam-plugin"
+      },
+      "default_branch_p6m7g8githubio": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/default_branch_p6m7g8githubio",
+            "uniqueId": "default_branch_p6m7g8githubio"
+          }
+        },
+        "branch": "main",
+        "repository": "p6m7g8.github.io"
+      }
+    },
+    "github_branch_protection_v3": {
+      "branch_protection_github": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_github",
+            "uniqueId": "branch_protection_github"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": ".github",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-cdk-github-cve-alerter": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-cdk-github-cve-alerter",
+            "uniqueId": "branch_protection_p6-cdk-github-cve-alerter"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-cdk-github-cve-alerter",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-cdk-gollucciio": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-cdk-gollucciio",
+            "uniqueId": "branch_protection_p6-cdk-gollucciio"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-cdk-gollucci.io",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-cdk-landing-zone": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-cdk-landing-zone",
+            "uniqueId": "branch_protection_p6-cdk-landing-zone"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-cdk-landing-zone",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-cdktf-github-p6m7g8": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-cdktf-github-p6m7g8",
+            "uniqueId": "branch_protection_p6-cdktf-github-p6m7g8"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-cdktf-github-p6m7g8",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-cirrus": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-cirrus",
+            "uniqueId": "branch_protection_p6-cirrus"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-cirrus",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-domain-records": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-domain-records",
+            "uniqueId": "branch_protection_p6-domain-records"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-domain-records",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-domains": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-domains",
+            "uniqueId": "branch_protection_p6-domains"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-domains",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-go-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-go-craps",
+            "uniqueId": "branch_protection_p6-go-craps"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-go-craps",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-projen-ts-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-projen-ts-craps",
+            "uniqueId": "branch_protection_p6-projen-ts-craps"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-projen-ts-craps",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-py-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-py-craps",
+            "uniqueId": "branch_protection_p6-py-craps"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-py-craps",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-rails-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-rails-craps",
+            "uniqueId": "branch_protection_p6-rails-craps"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-rails-craps",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-rb-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-rb-craps",
+            "uniqueId": "branch_protection_p6-rb-craps"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-rb-craps",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-rust-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-rust-craps",
+            "uniqueId": "branch_protection_p6-rust-craps"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-rust-craps",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-slab-graphql-schema": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-slab-graphql-schema",
+            "uniqueId": "branch_protection_p6-slab-graphql-schema"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-slab-graphql-schema",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-ts-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-ts-craps",
+            "uniqueId": "branch_protection_p6-ts-craps"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-ts-craps",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-zsh-cdktf-plugin": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-zsh-cdktf-plugin",
+            "uniqueId": "branch_protection_p6-zsh-cdktf-plugin"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-zsh-cdktf-plugin",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-zsh-projen-plugin": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-zsh-projen-plugin",
+            "uniqueId": "branch_protection_p6-zsh-projen-plugin"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-zsh-projen-plugin",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6-zsh-sam-plugin": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6-zsh-sam-plugin",
+            "uniqueId": "branch_protection_p6-zsh-sam-plugin"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6-zsh-sam-plugin",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      },
+      "branch_protection_p6m7g8githubio": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/branch_protection_p6m7g8githubio",
+            "uniqueId": "branch_protection_p6m7g8githubio"
+          }
+        },
+        "branch": "main",
+        "enforce_admins": true,
+        "repository": "p6m7g8.github.io",
+        "required_status_checks": {
+          "checks": [
+          ],
+          "strict": true
+        }
+      }
+    },
+    "github_repository": {
+      "github": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/.github",
+            "uniqueId": "github"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 .github",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/.github",
+        "license_template": "apache-2.0",
+        "name": ".github",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "github",
+          "profile",
+          "readme",
+          "organization"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-cdk-github-cve-alerter": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-cdk-github-cve-alerter",
+            "uniqueId": "p6-cdk-github-cve-alerter"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-cdk-github-cve-alerter",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-cdk-github-cve-alerter",
+        "license_template": "apache-2.0",
+        "name": "p6-cdk-github-cve-alerter",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "typescript",
+          "github",
+          "cve",
+          "cdk"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-cdk-gollucciio": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-cdk-gollucci.io",
+            "uniqueId": "p6-cdk-gollucciio"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-cdk-gollucci.io",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-cdk-gollucci.io",
+        "license_template": "apache-2.0",
+        "name": "p6-cdk-gollucci.io",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "typescript",
+          "cdk",
+          "nextjs"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-cdk-landing-zone": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-cdk-landing-zone",
+            "uniqueId": "p6-cdk-landing-zone"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-cdk-landing-zone",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-cdk-landing-zone",
+        "license_template": "apache-2.0",
+        "name": "p6-cdk-landing-zone",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "typescript",
+          "aws",
+          "cdk",
+          "landingzone",
+          "accelerator"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-cdktf-github-p6m7g8": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-cdktf-github-p6m7g8",
+            "uniqueId": "p6-cdktf-github-p6m7g8"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-cdktf-github-p6m7g8",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-cdktf-github-p6m7g8",
+        "license_template": "apache-2.0",
+        "name": "p6-cdktf-github-p6m7g8",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "typescript",
+          "cdktf",
+          "github",
+          "terraform"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-cirrus": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-cirrus",
+            "uniqueId": "p6-cirrus"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-cirrus",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-cirrus",
+        "license_template": "apache-2.0",
+        "name": "p6-cirrus",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "sh",
+          "bash",
+          "zsh",
+          "shell",
+          "cli",
+          "dotfiles"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-domain-records": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-domain-records",
+            "uniqueId": "p6-domain-records"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-domain-records",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-domain-records",
+        "license_template": "apache-2.0",
+        "name": "p6-domain-records",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "aws",
+          "typescript",
+          "route53",
+          "cdk"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-domains": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-domains",
+            "uniqueId": "p6-domains"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-domains",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-domains",
+        "license_template": "apache-2.0",
+        "name": "p6-domains",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "aws",
+          "typescript",
+          "route53",
+          "cdk"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-go-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-go-craps",
+            "uniqueId": "p6-go-craps"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-go-craps",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-go-craps",
+        "license_template": "apache-2.0",
+        "name": "p6-go-craps",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "go",
+          "stats",
+          "craps"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-projen-ts-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-projen-ts-craps",
+            "uniqueId": "p6-projen-ts-craps"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-projen-ts-craps",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-projen-ts-craps",
+        "license_template": "apache-2.0",
+        "name": "p6-projen-ts-craps",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "typescript",
+          "projen",
+          "stats",
+          "craps"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-py-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-py-craps",
+            "uniqueId": "p6-py-craps"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-py-craps",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-py-craps",
+        "license_template": "apache-2.0",
+        "name": "p6-py-craps",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "python",
+          "stats",
+          "craps"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-rails-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-rails-craps",
+            "uniqueId": "p6-rails-craps"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-rails-craps",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-rails-craps",
+        "license_template": "apache-2.0",
+        "name": "p6-rails-craps",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "ruby",
+          "rails",
+          "stats",
+          "craps"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-rb-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-rb-craps",
+            "uniqueId": "p6-rb-craps"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-rb-craps",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-rb-craps",
+        "license_template": "apache-2.0",
+        "name": "p6-rb-craps",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "ruby",
+          "stats",
+          "craps",
+          "sorbet"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-rust-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-rust-craps",
+            "uniqueId": "p6-rust-craps"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-rust-craps",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-rust-craps",
+        "license_template": "apache-2.0",
+        "name": "p6-rust-craps",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "rust",
+          "craps",
+          "clap"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-slab-graphql-schema": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-slab-graphql-schema",
+            "uniqueId": "p6-slab-graphql-schema"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-slab-graphql-schema",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-slab-graphql-schema",
+        "license_template": "apache-2.0",
+        "name": "p6-slab-graphql-schema",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "typescript",
+          "slab",
+          "graphql",
+          "projen"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-ts-craps": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-ts-craps",
+            "uniqueId": "p6-ts-craps"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-ts-craps",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-ts-craps",
+        "license_template": "apache-2.0",
+        "name": "p6-ts-craps",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "typescript",
+          "craps",
+          "stats"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-zsh-cdktf-plugin": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-zsh-cdktf-plugin",
+            "uniqueId": "p6-zsh-cdktf-plugin"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-zsh-cdktf-plugin",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-zsh-cdktf-plugin",
+        "license_template": "apache-2.0",
+        "name": "p6-zsh-cdktf-plugin",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "ohmyzsh",
+          "cdktf",
+          "terraform-cdk",
+          "terraform",
+          "plugin"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-zsh-projen-plugin": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-zsh-projen-plugin",
+            "uniqueId": "p6-zsh-projen-plugin"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-zsh-projen-plugin",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-zsh-projen-plugin",
+        "license_template": "apache-2.0",
+        "name": "p6-zsh-projen-plugin",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "sh",
+          "zsh",
+          "ohmyzsh",
+          "projen",
+          "plugin"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6-zsh-sam-plugin": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6-zsh-sam-plugin",
+            "uniqueId": "p6-zsh-sam-plugin"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 p6m7g8/p6-zsh-sam-plugin",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6-zsh-sam-plugin",
+        "license_template": "apache-2.0",
+        "name": "p6-zsh-sam-plugin",
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "sh",
+          "zsh",
+          "ohmyzsh",
+          "sam",
+          "plugin"
+        ],
+        "vulnerability_alerts": true
+      },
+      "p6m7g8githubio": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/p6m7g8.github.io",
+            "uniqueId": "p6m7g8githubio"
+          }
+        },
+        "allow_auto_merge": true,
+        "archive_on_destroy": true,
+        "delete_branch_on_merge": true,
+        "description": "P6M7G8 github site",
+        "has_discussions": true,
+        "has_issues": true,
+        "has_projects": true,
+        "homepage_url": "https://p6m7g8.github.io/p6m7g8/p6m7g8.githu.io",
+        "license_template": "apache-2.0",
+        "name": "p6m7g8.github.io",
+        "pages": {
+          "source": {
+            "branch": "main"
+          }
+        },
+        "topics": [
+          "p6",
+          "p6m7g8",
+          "github",
+          "profile",
+          "readme",
+          "organization",
+          "website",
+          "homepage"
+        ],
+        "vulnerability_alerts": true
+      }
+    },
+    "github_team": {
+      "P6-Admins": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/P6-Admins",
+            "uniqueId": "P6-Admins"
+          }
+        },
+        "name": "P6-Admins"
+      },
+      "P6-Maintainers": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/P6-Maintainers",
+            "uniqueId": "P6-Maintainers"
+          }
+        },
+        "name": "P6-Maintainers"
+      },
+      "P6-Owners": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/P6-Owners",
+            "uniqueId": "P6-Owners"
+          }
+        },
+        "name": "P6-Owners"
+      },
+      "P6-Readers": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/P6-Readers",
+            "uniqueId": "P6-Readers"
+          }
+        },
+        "name": "P6-Readers"
+      },
+      "P6-Triagers": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/P6-Triagers",
+            "uniqueId": "P6-Triagers"
+          }
+        },
+        "name": "P6-Triagers"
+      },
+      "P6-Writers": {
+        "//": {
+          "metadata": {
+            "path": "p6-cdktf-github-p6m7g8/P6-Writers",
+            "uniqueId": "P6-Writers"
+          }
+        },
+        "name": "P6-Writers"
+      }
+    }
+  },
+  "terraform": {
+    "backend": {
+      "local": {
+        "path": "/Users/pgollucci/src/github.com/p6m7g8/p6-cdktf-github-p6m7g8/terraform.p6-cdktf-github-p6m7g8.tfstate"
+      }
+    },
+    "required_providers": {
+      "github": {
+        "source": "integrations/github",
+        "version": "5.26.0"
+      }
+    }
+  }
+}
