@@ -1,5 +1,6 @@
 repositories:
-  - allowAutoMerge: true
+  - name: p6-cdk-github-cve-alerter
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-cdk-github-cve-alerter
@@ -8,11 +9,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdk-github-cve-alerter
     licenseTemplate: apache-2.0
-    name: p6-cdk-github-cve-alerter
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -21,7 +17,8 @@ repositories:
       - cve
       - cdk
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-cdk-gollucci.io
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-cdk-gollucci.io
@@ -30,11 +27,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdk-gollucci.io
     licenseTemplate: apache-2.0
-    name: p6-cdk-gollucci.io
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -42,7 +34,8 @@ repositories:
       - cdk
       - nextjs
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-cdk-landing-zone
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-cdk-landing-zone
@@ -51,11 +44,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdk-landing-zone
     licenseTemplate: apache-2.0
-    name: p6-cdk-landing-zone
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -65,7 +53,8 @@ repositories:
       - landingzone
       - accelerator
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-cdktf-github-p6m7g8
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-cdktf-github-p6m7g8
@@ -74,11 +63,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdktf-github-p6m7g8
     licenseTemplate: apache-2.0
-    name: p6-cdktf-github-p6m7g8
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -87,7 +71,8 @@ repositories:
       - github
       - terraform
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-cirrus
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-cirrus
@@ -96,11 +81,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cirrus
     licenseTemplate: apache-2.0
-    name: p6-cirrus
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -111,7 +91,8 @@ repositories:
       - cli
       - dotfiles
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-domain-records
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-domain-records
@@ -120,11 +101,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-domain-records
     licenseTemplate: apache-2.0
-    name: p6-domain-records
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -133,7 +109,8 @@ repositories:
       - route53
       - cdk
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-domains
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-domains
@@ -142,11 +119,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-domains
     licenseTemplate: apache-2.0
-    name: p6-domains
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -155,7 +127,8 @@ repositories:
       - route53
       - cdk
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-go-craps
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-go-craps
@@ -164,11 +137,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-go-craps
     licenseTemplate: apache-2.0
-    name: p6-go-craps
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -176,7 +144,8 @@ repositories:
       - stats
       - craps
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-projen-ts-craps
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-projen-ts-craps
@@ -185,11 +154,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-projen-ts-craps
     licenseTemplate: apache-2.0
-    name: p6-projen-ts-craps
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -198,7 +162,8 @@ repositories:
       - stats
       - craps
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-py-craps
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-py-craps
@@ -207,11 +172,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-py-craps
     licenseTemplate: apache-2.0
-    name: p6-py-craps
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -219,7 +179,8 @@ repositories:
       - stats
       - craps
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-rails-craps
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-rails-craps
@@ -228,11 +189,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-rails-craps
     licenseTemplate: apache-2.0
-    name: p6-rails-craps
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -241,7 +197,8 @@ repositories:
       - stats
       - craps
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-rb-craps
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-rb-craps
@@ -250,11 +207,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-rb-craps
     licenseTemplate: apache-2.0
-    name: p6-rb-craps
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -263,7 +215,8 @@ repositories:
       - craps
       - sorbet
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-rust-craps
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-rust-craps
@@ -272,11 +225,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-rust-craps
     licenseTemplate: apache-2.0
-    name: p6-rust-craps
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -284,7 +232,8 @@ repositories:
       - craps
       - clap
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-slab-graphql-schema
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-slab-graphql-schema
@@ -293,11 +242,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-slab-graphql-schema
     licenseTemplate: apache-2.0
-    name: p6-slab-graphql-schema
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -306,7 +250,8 @@ repositories:
       - graphql
       - projen
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-ts-craps
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-ts-craps
@@ -315,11 +260,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-ts-craps
     licenseTemplate: apache-2.0
-    name: p6-ts-craps
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -327,7 +267,8 @@ repositories:
       - craps
       - stats
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-zsh-projen-plugin
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-zsh-projen-plugin
@@ -336,11 +277,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-zsh-projen-plugin
     licenseTemplate: apache-2.0
-    name: p6-zsh-projen-plugin
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
@@ -350,7 +286,8 @@ repositories:
       - projen
       - plugin
     vulnerabilityAlerts: true
-  - allowAutoMerge: true
+  - name: p6-zsh-sam-plugin
+    allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
     description: P6M7G8 p6m7g8/p6-zsh-sam-plugin
@@ -359,11 +296,6 @@ repositories:
     hasProjects: true
     homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-zsh-sam-plugin
     licenseTemplate: apache-2.0
-    name: p6-zsh-sam-plugin
-    pages:
-      source:
-        branch: main
-        path: /docs
     topics:
       - p6
       - p6m7g8
