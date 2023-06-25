@@ -17,53 +17,42 @@ repositories:
       - readme
       - organization
     vulnerabilityAlerts: true
-  - name: p6m7g8.github.io
-    allowAutoMerge: true
-    archiveOnDestroy: true
-    deleteBranchOnMerge: true
-    description: P6M7G8 github site
-    hasDiscussions: true
-    hasIssues: true
-    hasProjects: true
-    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6m7g8.githu.io
-    licenseTemplate: apache-2.0
-    pages:
-      source:
-        branch: main
-        docs: docs/
-    topics:
-      - p6
-      - p6m7g8
-      - github
-      - profile
-      - readme
-      - organization
-      - website
-      - homepage
-    vulnerabilityAlerts: true
-  - name: p6-cdk-website-plus
-    allowAutoMerge: true
-    archiveOnDestroy: true
-    deleteBranchOnMerge: true
-    description: P6M7G8 p6m7g8/p6-cdk-website-plus
-    hasDiscussions: true
-    hasIssues: true
-    hasProjects: true
-    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdk-website-plus
-    licenseTemplate: apache-2.0
-    topics:
-      - p6
-      - p6m7g8
-      - typescript
-      - github
-      - cdk
-      - projen
-      - aws
-      - s3
-      - cloudfront
-      - website
-      - infra
-    vulnerabilityAlerts: true
+  # - name: awesome-projen
+  #   allowAutoMerge: true
+  #   archiveOnDestroy: true
+  #   deleteBranchOnMerge: true
+  #   description: P6M7G8 awesome-projen
+  #   hasDiscussions: true
+  #   hasIssues: true
+  #   hasProjects: true
+  #   homepageUrl: https://p6m7g8.github.io/p6m7g8/awesome-projen
+  #   licenseTemplate: apache-2.0
+  #   topics:
+  #     - p6
+  #     - p6m7g8
+  #     - awesome-lists
+  #     - projen
+  #     - aws
+  #   vulnerabilityAlerts: true
+  # - name: gh-parallel
+  #   allowAutoMerge: true
+  #   archiveOnDestroy: true
+  #   deleteBranchOnMerge: true
+  #   description: P6M7G8 .github
+  #   hasDiscussions: true
+  #   hasIssues: true
+  #   hasProjects: true
+  #   homepageUrl: https://p6m7g8.github.io/p6m7g8/gh-parallel
+  #   licenseTemplate: apache-2.0
+  #   topics:
+  #     - p6
+  #     - p6m7g8
+  #     - gh
+  #     - git
+  #     - cli
+  #     - parallel
+  #     - bash
+  #   vulnerabilityAlerts: true
   - name: p6-cdk-github-cve-alerter
     allowAutoMerge: true
     archiveOnDestroy: true
@@ -102,6 +91,70 @@ repositories:
       - landingzone
       - accelerator
       - projen
+    vulnerabilityAlerts: true
+  # - name: p6-cdk-namer
+  #   allowAutoMerge: true
+  #   archiveOnDestroy: true
+  #   deleteBranchOnMerge: true
+  #   description: P6M7G8 p6m7g8/p6-cdk-namer
+  #   hasDiscussions: true
+  #   hasIssues: true
+  #   hasProjects: true
+  #   homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdk-namer
+  #   licenseTemplate: apache-2.0
+  #   topics:
+  #     - p6
+  #     - p6m7g8
+  #     - typescript
+  #     - aws
+  #     - cdk
+  #     - iam
+  #   vulnerabilityAlerts: true
+  - name: p6-cdk-website-plus
+    allowAutoMerge: true
+    archiveOnDestroy: true
+    deleteBranchOnMerge: true
+    description: P6M7G8 p6m7g8/p6-cdk-website-plus
+    hasDiscussions: true
+    hasIssues: true
+    hasProjects: true
+    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdk-website-plus
+    licenseTemplate: apache-2.0
+    topics:
+      - p6
+      - p6m7g8
+      - typescript
+      - github
+      - cdk
+      - projen
+      - aws
+      - s3
+      - cloudfront
+      - website
+      - infra
+    vulnerabilityAlerts: true
+  - name: p6-cdk-website-plus-app
+    allowAutoMerge: true
+    archiveOnDestroy: true
+    deleteBranchOnMerge: true
+    description: P6M7G8 p6m7g8/p6-cdk-website-plus-app
+    hasDiscussions: true
+    hasIssues: true
+    hasProjects: true
+    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdk-website-plus-app
+    licenseTemplate: apache-2.0
+    topics:
+      - p6
+      - p6m7g8
+      - typescript
+      - github
+      - cdk
+      - projen
+      - aws
+      - s3
+      - cloudfront
+      - website
+      - infra
     vulnerabilityAlerts: true
   - name: p6-cdktf-github-p6m7g8
     allowAutoMerge: true
@@ -285,6 +338,41 @@ repositories:
       - craps
       - clap
     vulnerabilityAlerts: true
+  - name: p6-ts-craps
+    allowAutoMerge: true
+    archiveOnDestroy: true
+    deleteBranchOnMerge: true
+    description: P6M7G8 p6m7g8/p6-ts-craps
+    hasDiscussions: true
+    hasIssues: true
+    hasProjects: true
+    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-ts-craps
+    licenseTemplate: apache-2.0
+    topics:
+      - p6
+      - p6m7g8
+      - typescript
+      - craps
+      - stats
+    vulnerabilityAlerts: true
+  # - name: p6-projen-project-awesome-list
+  #   allowAutoMerge: true
+  #   archiveOnDestroy: true
+  #   deleteBranchOnMerge: true
+  #   description: P6M7G8 p6m7g8/p6-projen-project-awesome-list
+  #   hasDiscussions: true
+  #   hasIssues: true
+  #   hasProjects: true
+  #   homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-projen-project-awedome-list
+  #   licenseTemplate: apache-2.0
+  #   topics:
+  #     - p6
+  #     - p6m7g8
+  #     - typescript
+  #     - projen
+  #     - project
+  #     - awesome-list
+  #   vulnerabilityAlerts: true
   - name: p6-slab-graphql-schema
     allowAutoMerge: true
     archiveOnDestroy: true
@@ -303,22 +391,24 @@ repositories:
       - graphql
       - projen
     vulnerabilityAlerts: true
-  - name: p6-ts-craps
+  - name: p6-zsh-cdktf-plugin
     allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
-    description: P6M7G8 p6m7g8/p6-ts-craps
+    description: P6M7G8 p6m7g8/p6-zsh-cdktf-plugin
     hasDiscussions: true
     hasIssues: true
     hasProjects: true
-    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-ts-craps
+    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-zsh-cdktf-plugin
     licenseTemplate: apache-2.0
     topics:
       - p6
       - p6m7g8
-      - typescript
-      - craps
-      - stats
+      - ohmyzsh
+      - cdktf
+      - terraform-cdk
+      - terraform
+      - plugin
     vulnerabilityAlerts: true
   - name: p6-zsh-projen-plugin
     allowAutoMerge: true
@@ -337,25 +427,6 @@ repositories:
       - zsh
       - ohmyzsh
       - projen
-      - plugin
-    vulnerabilityAlerts: true
-  - name: p6-zsh-cdktf-plugin
-    allowAutoMerge: true
-    archiveOnDestroy: true
-    deleteBranchOnMerge: true
-    description: P6M7G8 p6m7g8/p6-zsh-cdktf-plugin
-    hasDiscussions: true
-    hasIssues: true
-    hasProjects: true
-    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-zsh-cdktf-plugin
-    licenseTemplate: apache-2.0
-    topics:
-      - p6
-      - p6m7g8
-      - ohmyzsh
-      - cdktf
-      - terraform-cdk
-      - terraform
       - plugin
     vulnerabilityAlerts: true
   - name: p6-zsh-sam-plugin
@@ -377,24 +448,27 @@ repositories:
       - sam
       - plugin
     vulnerabilityAlerts: true
-  - name: p6-cdk-website-app-plus
+  - name: p6m7g8.github.io
     allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
-    description: P6M7G8 p6m7g8/p6-cdk-website-app-plus
+    description: P6M7G8 github site
     hasDiscussions: true
     hasIssues: true
     hasProjects: true
-    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdk-website-app-plus
+    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6m7g8.githu.io
     licenseTemplate: apache-2.0
+    pages:
+      source:
+        branch: main
+        docs: docs/
     topics:
       - p6
       - p6m7g8
+      - github
+      - profile
+      - readme
+      - organization
       - website
-      - cdk
-      - projen
-      - s3
-      - cloudfront
-      - route53
-      - acm
+      - homepage
     vulnerabilityAlerts: true
