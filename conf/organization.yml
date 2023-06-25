@@ -377,3 +377,24 @@ repositories:
       - sam
       - plugin
     vulnerabilityAlerts: true
+  - name: p6-cdk-website-app-plus
+    allowAutoMerge: true
+    archiveOnDestroy: true
+    deleteBranchOnMerge: true
+    description: P6M7G8 p6m7g8/p6-cdk-website-app-plus
+    hasDiscussions: true
+    hasIssues: true
+    hasProjects: true
+    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6-cdk-website-app-plus
+    licenseTemplate: apache-2.0
+    topics:
+      - p6
+      - p6m7g8
+      - website
+      - cdk
+      - projen
+      - s3
+      - cloudfront
+      - route53
+      - acm
+    vulnerabilityAlerts: true
