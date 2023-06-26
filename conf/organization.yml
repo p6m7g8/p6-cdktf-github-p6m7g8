@@ -448,26 +448,19 @@ repositories:
       - sam
       - plugin
     vulnerabilityAlerts: true
-  - name: p6m7g8.github.io
+  - name: p6m7g8.com
     allowAutoMerge: true
     archiveOnDestroy: true
     deleteBranchOnMerge: true
-    description: P6M7G8 github site
+    description: P6M7G8 p6m7g8.com site
     hasDiscussions: true
     hasIssues: true
     hasProjects: true
-    homepageUrl: https://p6m7g8.github.io/p6m7g8/p6m7g8.githu.io
+    homepageUrl: https://www.p6m7g8.com
     licenseTemplate: apache-2.0
-    pages:
-      source:
-        branch: main
-        docs: docs/
     topics:
       - p6
       - p6m7g8
-      - github
-      - profile
-      - readme
       - organization
       - website
       - homepage

@@ -1,7 +1,7 @@
+import * as fs from 'fs';
 import { branchDefault, branchProtectionV3, provider, repository, team } from '@cdktf/provider-github';
 import { App, TerraformStack } from 'cdktf';
 import { Construct } from 'constructs';
-import * as fs from 'fs';
 
 import * as yaml from 'js-yaml';
 
